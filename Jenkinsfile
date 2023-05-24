@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git ''
+        git 'https://github.com/Nandhini-16/docker-node-pipeline.git'
       }
     }
 
