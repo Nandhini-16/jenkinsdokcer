@@ -5,7 +5,7 @@ pipeline {
     dockerImage = ""
   }
 
-  agent default-242fd
+  agent 242fd
   tools {
     dockerTool "docker"
   }
