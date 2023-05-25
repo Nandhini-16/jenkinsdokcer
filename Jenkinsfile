@@ -10,7 +10,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git branch: 'main', url: 'https://github.com/Nandhini-16/docker-node-pipeline.git'
+        git 'https://github.com/Nandhini-16/docker-node-pipeline.git'
       }
     }
 
